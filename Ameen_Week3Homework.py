@@ -1,3 +1,5 @@
+# Python Homework (Data Types)
+# Data Types:
 # 1. What is an algorithm?
 # An algorithm is a step-by-step procedure or formula for solving a problem.
 
@@ -58,7 +60,7 @@ print(savvy[5:24])
 savvy = savvy.replace("Awesome", "great")
 
 # Test and print the savvy string to see it contains "Python"
-print(savvy)
+print("Python" in savvy)
 
 # 9. Create and assign 3 more variables called name, age and length using the multi-variable naming method
 name, age, length = "Ameen", 35, 171
@@ -72,6 +74,7 @@ print(miniBio)
 # Cast and print the age variable to a float
 print(float(age))
 
+# Complex Data Types:
 # 10, Create a list of at least 5 elements of mixed data types
 mixed_list = [17, 3.14, "Python", True, [1, 2, 3]]
 
@@ -105,6 +108,35 @@ simList_copy = simList.copy()
 
 # Add the 2nd and 3rd lists together into a 4th list
 simList_combine = simList + simList_copy
+
+
+# 11. Create a tuple of about 5 elements
+my_tuple = ("carrot", "broccoli", "spinach", "potato", "tomato")
+
+# Multiply your tuple by 3 and save it to a new 2nd tuple
+my_tuple_2 = my_tuple * 3
+
+# Access and print the 12th element from the 2nd tuple
+print(my_tuple_2[11])
+
+# Sort the 2nd tuple and print it
+my_tuple_2 = sorted(my_tuple_2)
+print(my_tuple_2)
+
+# Copy 4 specific elements from your 2nd tuple to a new 3nd tuple
+my_tuple_3 = my_tuple_2[3:7]
+
+# Unpack the 3rd tuple into 4 variables and print these variables
+var1, var2, var3, var4 = my_tuple_3
+print(var1, var2, var3, var4)
+
+# Create a 4th tuple with single item 50 and print this tuple
+my_tuple_4 = (50,)
+print(my_tuple_4)
+
+# Add the 2nd and 3rd tuple together into a 5th tuple and print the tuple
+my_tuple_5 = my_tuple_2 + my_tuple_3
+print(my_tuple_5)
 
 # 12. Create a set of about 3 elements
 my_set = {"apple", "banana", "cherry"}
