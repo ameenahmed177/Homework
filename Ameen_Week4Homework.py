@@ -94,7 +94,6 @@ for clothing in couture:
     for color in panettone:
         print(clothing, color)
 
-
 # 5. Use range as a loop to calculate the sum of all the numbers from 1 to 100
 
 sum = 0
